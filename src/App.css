@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+.form-input{
+  width: 48vw;
+}
+.text_area {
+  min-width: 548px;
+}
+.form {
+  /* background-color: rgb(51, 153, 66); */
+  
+}
+.ing_input {
+ width: 14vw !important;
+}
+
+.add_more{
+ border-radius: 50px;
+ border: 1px solid black;
+ width: 150px;
+ height: 50px;
+ padding: 10px;
+ align-items: center;
+ text-align: center;
+ font-size: 15px;
+ margin-left: auto;
+ margin-right: 10px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+
+.ing_div{
+  display: flex;
+  justify-content: space-between;
+}
+.form_wrapper {
+  justify-content: center;
+  flex-direction: row;
+  width : 50vw;
+  display : flex;
+  margin-left: 25vw;
+  /* border: 2px solid gray; */
+}
+
+.delete_icon {
+  border-radius: 30px;
+  border: 1px solid rgb(212, 36, 36);
+  color: white;
+  background-color: red;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-bottom: 35px;
+  cursor: pointer;
+}
+
+.delete_icon > span {
+  /* margin-left: auto; */
+}
+
+.error {
+  background-color :rgba(157, 19, 19, 0.847);
+  color: white;
+  margin: 5px;
+  border-radius: 3px;
+  width: 50vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
